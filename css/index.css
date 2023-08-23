@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #eeeded !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logotipo-QQTech {
+  width: 120px;
+}
+
+.nav-item {
+  margin: -40px 100px 0px 0px;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
+.nav-link:hover {
+  color: #e24005 !important;
+}
+
+.boas-vindas-professor {
+  margin: 50px 0px 0px 20px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.selecao-aluno,
+.quantidade-notas,
+.resultado-aluno,
+.resultado-input,
+.resultado-media,
+.resultado-semestre,
+.finalizar-btn {
+  margin: 20px 0px 10px 20px;
+}
+
+.finalizar-btn {
+  border-radius: 5px;
+}
+
+.finalizar-btn:hover {
+  border-color: #e24005;
+  font-weight: bold;
+}
+
+.input-notas {
+  margin-right: 50px;
+}
+
+#quantidade-notas {
+  margin-left: 26px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.centerFooter {
+  font-weight: bold;
+  font-size: 12px;
+  color: #f46530;
+  margin-top: 50px;
+}

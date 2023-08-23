@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escola QQTech</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logotipo-QQTech"
+        src="./assets/logotipo.png"
+        alt="logotipo-QQTech"
+      />
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"
+            ><strong>Registro de Notas</strong></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Registro de Frequência</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Meu Perfil</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="boas-vindas-professor">
+        <img src="./assets/icone-perfil.png" width="20px" />
+        Olá, Allan Crasso
+      </section>
+      <section class="lancamento-notas">
+        <div class="selecao-aluno">
+          <label for="selecao-aluno"
+            >Selecione o aluno para lançar a nota:</label
+          >
+          <select id="selecao-aluno" name="lista-alunos">
+            <option value="selecione">Selecione</option>
+            <option value="Grazielle Melo Borges Torres">
+              Grazielle Melo Borges Torres
+            </option>
+            <option value="Guilherme Gomes Lima">Guilherme Gomes Lima</option>
+            <option value="Isabela Martins Oliveira">
+              Isabela Martins Oliveira
+            </option>
+            <option value="João Rodrigues Pereira">
+              João Rodrigues Pereira
+            </option>
+          </select>
+        </div>
+        <div class="quantidade-notas">
+          <label for="quantidade-notas">Selecione a quantidade de notas:</label>
+          <select id="quantidade-notas" name="quantidade-notas">
+            <option value="selecione">Selecione</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+      </section>
+      <button class="finalizar-btn">Finalizar</button>
+      <section class="resultado-aluno">
+        <span class="resultado"></span>
+      </section>
+      <section class="resultado-input">
+        <span class="input-notas"></span>
+      </section>
+      <span class="resultado-media"></span><br />
+      <span class="resultado-semestre"></span>
+    </main>
+    <footer>
+      <center class="centerFooter">
+        <marquee behavior="scroll" direction="left">
+          <p class="pContato">
+            Atenção professores! O prazo para lançamento das notas para o
+            Período Letivo 2023/2 da QQTech encerra amanhã (22/08/2023)!
+          </p>
+        </marquee>
+      </center>
+      <div class="footer">
+        <p>&copy; 2023 QQTech. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
